@@ -1,0 +1,136 @@
+a:hover {
+    color: #008df1;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background: #0087e7;
+    color: #fff;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #006fbe;
+}
+
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
+    color: #006fbe;
+}
+
+.navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+}
+
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
+    color: #006fbe;
+}
+
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+    color: #006fbe;
+}
+
+#hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#hero .btn-get-started:hover {
+    background: #007ed8;
+}
+
+.about .content .btn-learn-more:hover {
+    background: #006fbe;
+    color: #fff;
+    text-decoration: none;
+}
+
+.features .icon-box:hover .icon {
+    box-shadow: 0 0 25px rgba(0, 111, 190, 0.3);
+}
+
+.features .title a:hover {
+    color: #006fbe;
+}
+
+.members .member .social a:hover {
+    color: #006fbe;
+}
+
+.members .member:hover .social {
+    bottom: 0;
+    opacity: 1;
+    transition: bottom ease-in-out 0.4s;
+}
+
+.event-list .read-more a:hover {
+    color: #006fbe;
+}
+
+.event-list .card:hover img {
+    transform: scale(1.1);
+}
+
+.event-list .card:hover .card-body {
+    border-color: #006fbe;
+}
+
+.event-list .card:hover .card-body .card-title a {
+    color: #006fbe;
+}
+
+.gallery #gallery-flters li:hover, .gallery #gallery-flters li.filter-active {
+    color: #006fbe;
+}
+
+.gallery .gallery-wrap .gallery-links a:hover {
+    color: #25a4ff;
+}
+
+.gallery .gallery-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.gallery .gallery-wrap:hover .gallery-info {
+    opacity: 1;
+}
+
+.gallery .gallery-wrap:hover .gallery-info::before {
+    top: 15px;
+    left: 15px;
+}
+
+.gallery .gallery-wrap:hover .gallery-info::after {
+    bottom: 15px;
+    right: 15px;
+}
+
+.contact-us .info .email:hover i, .contact-us .info .address:hover i, .contact-us .info .phone:hover i {
+    background: #006fbe;
+    color: #fff;
+}
+
+.contact-us .php-email-form button[type=submit]:hover {
+    background: #007ed8;
+}
+
+#footer .social-links a:hover {
+    background: #007ed8;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .credits a:hover {
+    color: #008df1;
+}
